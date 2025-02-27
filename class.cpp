@@ -2,11 +2,14 @@
 
 using namespace std;
 
-class Car
+//class defination
+class Car 
 {
+    //Data members
 string brand;
 int speed;
 public:
+// member functions(methods)
    void setCarDetails(string b,int s){
     brand = b;
     speed = s;
